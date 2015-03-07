@@ -1,0 +1,20 @@
+Court(FamilyID, Budget)
+
+
+Family(FamilyID, SSD)
+
+
+每個Member可以有多個Request
+Member(SSD, Gender, Age, LastName, FirstName, RequestID)
+
+
+單純決定此項Request是否被接受
+Allowence(RequestID, Allowence)
+
+
+Request詳細資料
+Request(RequestID, RequestTYPE, RequestExpense)
+
+ToCity Brand TrafficTool can be null
+TYPE(RequestTYPE, ToCity, Brand, TrafficTool, FOODTYPE, FOODRANK)
+

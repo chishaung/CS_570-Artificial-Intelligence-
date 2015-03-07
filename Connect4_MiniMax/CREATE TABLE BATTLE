@@ -1,0 +1,33 @@
+CREATE TABLE BATTLE 
+(
+battle_ID int primary key,
+location varchar(45),
+start_date varchar(45),
+end_date varchar(45)
+);
+
+CREATE TABLE Warriors
+(
+battle_ID int primary key,
+W_Name varchar(45),
+W_gender varchar(45),
+W_specie varchar(45),
+casuality_name varchar(45),
+injury_name varchar(45)
+);
+
+CREATE TABLE Casuality
+(
+battle_ID int primary key,
+battle_Date varchar(45),
+battle_location varchar(45),
+CName varchar(45)
+);
+
+CREATE TABLE Injury
+(
+battle_ID int primary key,
+battle_Date varchar(45),
+battle_location varchar(45),
+IName varchar(45)
+);

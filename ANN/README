@@ -1,0 +1,12 @@
+The test is run by catting the trainging data file for the iris with
+the test data file with 54 tests to see how well the NN has learned.
+The first 24 tests are stress tests the remaining 30 are 10 from 
+each class of training data.
+
+The test command:
+
+cat iris.dat iristest.dat | nn
+
+In the test set on line there can be a few disagreements but
+between the expected results in test.out and what you generate
+but there should not be massive disagreement.
